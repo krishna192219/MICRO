@@ -1,0 +1,9 @@
+[console_scripts]
+ekf_serial_bridge = robot_mapping.ekf_serial_bridge:main
+imu_serial = robot_mapping.imu_serial:main
+odom_scan = robot_mapping.odom_scan:main
+odom_serial = robot_mapping.odom_serial:main
+scan_imu_odom = robot_mapping.scan_imu_odom:main
+scan_serial_node = robot_mapping.scan_serial_node:main
+serial_scan_node = robot_mapping.serial_scan_node:main
+

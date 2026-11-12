@@ -11,7 +11,7 @@ Visualization Manager:
     - Class: rviz_default_plugins/Grid
       Name: Grid
       Enabled: true
-      Cell Size: 0.1
+      Cell Size: 1
       Plane Cell Count: 40
       Reference Frame: <Fixed Frame>
     - Class: rviz_default_plugins/TF
@@ -33,7 +33,7 @@ Visualization Manager:
       Color Transformer: FlatColor
       Color: 80; 210; 230
     - Class: rviz_default_plugins/LaserScan
-      Name: Experimental reconstructed scan
+      Name: reconstructed scan
       Enabled: true
       Topic:
         Value: /scan

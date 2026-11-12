@@ -399,7 +399,7 @@ class ScanSerialNode(Node):
 
                     parts = line.split(',')
 
-                    if len(parts) != 5:
+                    if len(parts) != 2:
                         continue
 
                     try:

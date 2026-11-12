@@ -1,0 +1,39 @@
+[1.380s] Invoking command in '/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping': PYTHONPATH=/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build --no-deps symlink_data
+[1.866s] running develop
+[2.252s] running egg_info
+[2.252s] creating robot_mapping.egg-info
+[2.253s] writing robot_mapping.egg-info/PKG-INFO
+[2.253s] writing dependency_links to robot_mapping.egg-info/dependency_links.txt
+[2.254s] writing entry points to robot_mapping.egg-info/entry_points.txt
+[2.254s] writing requirements to robot_mapping.egg-info/requires.txt
+[2.254s] writing top-level names to robot_mapping.egg-info/top_level.txt
+[2.254s] writing manifest file 'robot_mapping.egg-info/SOURCES.txt'
+[2.258s] reading manifest file 'robot_mapping.egg-info/SOURCES.txt'
+[2.259s] writing manifest file 'robot_mapping.egg-info/SOURCES.txt'
+[2.261s] running build_ext
+[2.261s] Creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot-mapping.egg-link (link to .)
+[2.263s] Installing ekf_serial_bridge script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.263s] Installing imu_serial script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.264s] Installing odom_scan script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.264s] Installing odom_serial script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.265s] Installing scan_imu_odom script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.265s] Installing scan_serial_node script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.265s] Installing serial_scan_node script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[2.266s] 
+[2.266s] Installed /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping
+[2.266s] running symlink_data
+[2.266s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/ament_index
+[2.266s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/ament_index/resource_index
+[2.266s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/ament_index/resource_index/packages
+[2.267s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/resource/robot_mapping -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/ament_index/resource_index/packages
+[2.267s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/package.xml -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping
+[2.267s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/launch
+[2.267s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/launch/ekf.launch.py -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/launch
+[2.268s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/launch/amr_sensor.launch.py -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/launch
+[2.268s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/rviz
+[2.268s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/rviz/sensors.rviz -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/rviz
+[2.268s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/rviz/ekf.rviz -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/rviz
+[2.268s] creating /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/config
+[2.268s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/config/ekf_bridge.yaml -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/config
+[2.269s] symbolically linking /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/config/ekf.yaml -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/share/robot_mapping/config
+[2.325s] Invoked command in '/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping' returned '0': PYTHONPATH=/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build --no-deps symlink_data

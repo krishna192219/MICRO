@@ -1,0 +1,19 @@
+ekf_serial_bridge:
+  ros__parameters:
+    port: /dev/ttyUSB0
+    baud: 115200
+    # STARTING VARIANCES, not sensor specifications or measured results.
+    wheel_vx_variance: 0.0025  # (m/s)^2, sigma 0.05 m/s
+    wheel_vy_variance: 0.0025  # soft zero-sideways-velocity constraint
+    wheel_wz_variance: 0.04    # (rad/s)^2, sigma 0.2 rad/s
+    gyro_variance: 0.01       # (rad/s)^2, sigma 0.1 rad/s
+    accel_variance: 0.1       # not fused in this configuration
+    min_pose_dt: 0.03
+    max_pose_dt: 0.5
+    max_linear_speed: 0.6
+    max_yaw_rate: 6.0
+    # Rotation taking vectors expressed in imu_link into base_link, radians.
+    # Verify actual mounting; identity assumes X forward, Y left, Z up.
+    imu_roll: 0.0
+    imu_pitch: 0.0
+    imu_yaw: 0.0

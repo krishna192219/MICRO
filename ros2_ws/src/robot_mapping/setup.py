@@ -13,6 +13,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
         ('share/' + package_name + '/rviz', glob('rviz/*.rviz')),
+        ('share/' + package_name + '/config', glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -29,6 +30,7 @@ setup(
         'imu_serial = robot_mapping.imu_serial:main',
         'scan_serial_node = robot_mapping.scan_serial_node:main',
         'scan_imu_odom = robot_mapping.scan_imu_odom:main',
+        'ekf_serial_bridge = robot_mapping.ekf_serial_bridge:main',
         ],
     },
 )

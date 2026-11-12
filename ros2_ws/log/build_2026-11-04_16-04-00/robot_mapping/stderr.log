@@ -1,0 +1,5 @@
+  File "/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping/ekf_serial_bridge.py", line 55
+    time.sleep(1.0) # Give the ESP32 a brief window to process the connection opening
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

@@ -1,0 +1,35 @@
+[0.856s] Invoking command in '/home/krishna/mic_ros_amr/ros2_ws/src/robot_mapping': PS1=(robotics_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(robotics_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build install --record /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/install.log --single-version-externally-managed install_data
+[1.135s] running egg_info
+[1.136s] writing ../../build/robot_mapping/robot_mapping.egg-info/PKG-INFO
+[1.136s] writing dependency_links to ../../build/robot_mapping/robot_mapping.egg-info/dependency_links.txt
+[1.137s] writing entry points to ../../build/robot_mapping/robot_mapping.egg-info/entry_points.txt
+[1.137s] writing requirements to ../../build/robot_mapping/robot_mapping.egg-info/requires.txt
+[1.137s] writing top-level names to ../../build/robot_mapping/robot_mapping.egg-info/top_level.txt
+[1.139s] reading manifest file '../../build/robot_mapping/robot_mapping.egg-info/SOURCES.txt'
+[1.140s] writing manifest file '../../build/robot_mapping/robot_mapping.egg-info/SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] copying robot_mapping/ekf_serial_bridge.py -> /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build/lib/robot_mapping
+[1.141s] running install
+[1.142s] running install_lib
+[1.143s] copying /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build/lib/robot_mapping/ekf_serial_bridge.py -> /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping
+[1.144s] byte-compiling /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping/ekf_serial_bridge.py to ekf_serial_bridge.cpython-310.pyc
+[1.145s]   File "/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping/ekf_serial_bridge.py", line 55
+[1.145s]     time.sleep(1.0) # Give the ESP32 a brief window to process the connection opening
+[1.145s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.145s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.145s] 
+[1.146s] running install_data
+[1.146s] running install_egg_info
+[1.147s] removing '/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping-0.0.0-py3.10.egg-info' (and everything under it)
+[1.148s] Copying ../../build/robot_mapping/robot_mapping.egg-info to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages/robot_mapping-0.0.0-py3.10.egg-info
+[1.149s] running install_scripts
+[1.171s] Installing ekf_serial_bridge script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.171s] Installing imu_serial script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.171s] Installing odom_scan script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.172s] Installing odom_serial script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.172s] Installing scan_imu_odom script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.172s] Installing scan_serial_node script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.172s] Installing serial_scan_node script to /home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/robot_mapping
+[1.172s] writing list of installed files to '/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/install.log'
+[1.208s] Invoked command in '/home/krishna/mic_ros_amr/ros2_ws/src/robot_mapping' returned '0': PS1=(robotics_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krishna/mic_ros_amr/ros2_ws/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(robotics_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/build install --record /home/krishna/mic_ros_amr/ros2_ws/build/robot_mapping/install.log --single-version-externally-managed install_data
